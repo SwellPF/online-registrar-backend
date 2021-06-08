@@ -7,6 +7,7 @@ Rails.application.routes.draw do
       end
       resources :courses do
         resources :enrollments 
+      end
     end
   end
 end
